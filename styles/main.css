@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 17px/1.75 Open Sans, Tahoma, sans-serif;
+  background: #fdfdfd;
+}
+
+.highlight-editor {
+  position: relative;
+  height: calc(100vh - 8em);
+  max-width: 640px;
+  margin: 2rem auto;
+  width: 90vw;
+}
+
+.highlight-editor textarea, .highlight-editor .draw {
+  font: 17px/1.75 Open Sans, Tahoma, sans-serif;
+  border: none;
+  resize: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.8);
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: calc(100vh - 8em);
+}
+
+.highlight-editor .draw span {
+  box-shadow: inset #fff 0 0 2px 2px;
+  color: transparent;
+}
+
+.credits {
+  text-align: center;
+  font-size: 0.8em;
+  color: #888;
+}
