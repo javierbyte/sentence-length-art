@@ -41,7 +41,7 @@ var HighlightEditor = React.createClass({
 
   onChangeText(evt) {
     this.setState({
-      text: evt.target.value.replace(/\s\s/g, ' ')
+      text: evt.target.value.replace(/  /g, ' ')
     })
   },
 
