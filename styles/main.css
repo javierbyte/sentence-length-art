@@ -45,3 +45,10 @@ body {
   font-size: 0.8em;
   color: #888;
 }
+
+.share {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem;
+}
