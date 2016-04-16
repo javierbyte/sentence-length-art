@@ -1,17 +1,5 @@
-# React Minimal Starter
+# Sentence Length Art.
+Get a visualization of your sentence length and become a better writter!
 
-* React.
-* React-Transform (hot reload).
-* Uglify.
+[![sentence-length-art](docs-assets/screenshot.png)](http://javier.xyz/sentence-length-art/)
 
-## Getting started.
-
-### Development.
-```
-npm start
-```
-
-### Production.
-```
-npm run build
-```
