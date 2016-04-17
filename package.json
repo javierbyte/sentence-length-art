@@ -1,7 +1,7 @@
 {
   "name": "sentence-length-art",
   "version": "0.1.0",
-  "description": "",
+  "description": "Visualize the length of your sentences",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack/webpack.config.prod.js",
